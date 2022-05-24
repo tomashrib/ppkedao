@@ -1,0 +1,12 @@
+syntax = "proto3";
+package michaltakac.ppkedao.ppkedao;
+
+import "gogoproto/gogo.proto";
+
+option go_package = "github.com/michaltakac/ppkedao/x/ppkedao/types";
+
+// Params defines the parameters for the module.
+message Params {
+  option (gogoproto.goproto_stringer) = false;
+  
+}
